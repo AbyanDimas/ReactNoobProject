@@ -136,22 +136,22 @@ function Navbar() {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link to="/" className={getLinkClass("/")}>
-                Home
+                Fitur A
               </Link>
             </li>
             <li>
               <Link to="/home2" className={getLinkClass("/home2")}>
-                Home 2
+                Fitur B
               </Link>
             </li>
             <li>
               <Link to="/home3" className={getLinkClass("/home3")}>
-                Home 3
+                Fitur C
               </Link>
             </li>
             <li>
               <Link to="/home4" className={getLinkClass("/home4")}>
-                Home 4
+                Fitur D
               </Link>
             </li>
           </ul>
